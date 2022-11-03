@@ -1,0 +1,17 @@
+.logoandicons {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoandicons .searchAndCart {
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+
+.searchAndCart img {
+  margin: 0px 5px;
+}
