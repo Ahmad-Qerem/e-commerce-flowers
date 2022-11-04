@@ -2,8 +2,10 @@ import React from "react";
 import HeadingTitle from "../../HeadingTitle/HeadingTitle";
 import "./NewSection.css";
 import Data from "../../../../Data.json";
+import ReusableCard from "../ReusableCard/ReusableCard";
 
-// const jsData = JSON.parse(flowerlist);
+// What I did here is simply limiting the array to only four elements using slice function instead of many.
+// we can Apply pagination later .. simple idea
 const flowerData = Data.flowerlist.slice(0, 4);
 console.log(flowerData);
 const NewSection = () => {
@@ -12,15 +14,7 @@ const NewSection = () => {
       <HeadingTitle title="New" />
 
       <div className="newSection">
-        {flowerData.map((flower) => {
-          return (
-            <div key={flower.productId}>
-              <img src={flower.photo} alt={flower.category} />
-              <h3>{flower.name}</h3>
-              <p>{flower.price} $</p>
-            </div>
-          );
-        })}
+        <ReusableCard flowerData={flowerData} />
       </div>
     </React.Fragment>
   );
