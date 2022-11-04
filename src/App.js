@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import NewSection from "./components/HomePage/Cards/NewSection/NewSection";
+import ReleventSection from "./components/HomePage/Cards/ReleventSection/ReleventSection";
 import MainBanner from "./components/HomePage/MainBanner/MainBanner";
 import SecondaryBanners from "./components/HomePage/SecondaryBanners/SecondaryBanners";
 import LogoAndIcons from "./components/HomePage/TitleAndNav/LogoAndIcons/LogoAndIcons";
@@ -17,6 +18,7 @@ function App() {
       />
       <SecondaryBanners />
       <NewSection />
+      <ReleventSection />
     </>
   );
 }
