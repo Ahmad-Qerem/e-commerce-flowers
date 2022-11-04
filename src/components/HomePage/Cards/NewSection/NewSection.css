@@ -1,0 +1,14 @@
+.newSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newSection h3,
+.newSection p {
+  text-align: center;
+}
+.newSection p {
+  margin-top: -13px;
+}
