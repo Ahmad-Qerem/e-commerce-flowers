@@ -4,7 +4,7 @@
       "category": "Shrubs",
       "price": 15.99,
       "instructions": "Large double. Good grower, heavy bloomer. Early to mid-season, acid loving plants. Plant in moist well drained soil with pH of 4.0-5.5.",
-      "photo": "california_snow.jpg",
+      "photo": "./images/new1.jpg",
       "name": "Azalea",
       "productId": 1
     },
@@ -12,7 +12,7 @@
       "category": "Shrubs",
       "price": 33.99,
       "instructions": "Beautiful large royal purple flowers adorn attractive satiny green leaves that turn orange\\/red in cold weather. Grows to up to 18 feet, or prune annually to shorten.",
-      "photo": "princess_flower.jpg",
+      "photo": "./images/new2.jpg",
       "name": "Tibouchina Semidecandra",
       "productId": 2
     },
@@ -20,7 +20,7 @@
       "category": "Shrubs",
       "price": 12.99,
       "instructions": "Blooms in summer, 20-35 inches high. Fertilize regularly for best results. Full sun, drought tolerant.",
-      "photo": "haight_ashbury.jpg",
+      "photo": "./images/new3.jpg",
       "name": "Hibiscus",
       "productId": 3
     },
@@ -28,7 +28,7 @@
       "category": "Shrubs",
       "price": 5.99,
       "instructions": "Quick-growing, herbaceous, shrub reaching up to 30 inches in height, forming a rounded, dense bush.",
-      "photo": "mona_lavender.jpg",
+      "photo": "./images/new4.jpg",
       "name": "Plectranthus",
       "productId": 4
     },

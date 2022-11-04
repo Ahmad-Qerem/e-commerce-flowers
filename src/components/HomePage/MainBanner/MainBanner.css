@@ -3,7 +3,7 @@
   width: 100%;
   height: 220px;
   background-image: url("../../../../public/images/mainBanner.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
 }

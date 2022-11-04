@@ -1,0 +1,47 @@
+.secondaryBanner {
+  width: 100%;
+  display: flex;
+}
+
+.firstSeondaryBanner {
+  background-image: url("../../../../public/images/secondaryBanner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 47%;
+  margin-right: 6%;
+  border-radius: 5px;
+}
+
+.secondSeondaryBanner {
+  background-image: url("../../../../public/images/secondaryBanner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 47%;
+  border-radius: 5px;
+}
+
+.firstSeondaryBanner h2,
+.secondSeondaryBanner h2 {
+  text-align: end;
+  margin: 16px 100px 0px 0px;
+  color: #242424;
+}
+.firstSeondaryBanner p,
+.secondSeondaryBanner p {
+  text-align: end;
+  margin: 16px 100px 0px 0px;
+  color: #242424;
+}
+
+.firstSeondaryBanner button,
+.secondaryBanner button {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+  color: white;
+  background-color: chocolate;
+  border-radius: 5px;
+  cursor: pointer;
+}
