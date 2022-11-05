@@ -1,0 +1,19 @@
+nav {
+  width: 65%;
+  margin: 5px auto;
+  border-bottom: 1px solid #3333;
+}
+nav ul {
+  width: 100%;
+  margin: 0px -20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav ul li,
+nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}

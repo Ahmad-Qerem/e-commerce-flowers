@@ -1,10 +1,11 @@
-import * as all from "./components/AllComponents"
-import './App.css';
+import React from "react";
+import "./App.css";
+import * as all from "./components/AllComponents";
 
 function App() {
   return (
     <>
-      <all.CheckOut/>
+      <all.HomePage />
     </>
   );
 }
