@@ -2,7 +2,7 @@ import React from "react";
 import "./ReleventSection.css";
 import Data from "../../../../Data.json";
 import HeadingTitle from "../../HeadingTitle/HeadingTitle";
-import ReusableCard from "../ReusableCard/ReusableCard";
+import ReusableCard from "../../../Shared/ReusableCard/ReusableCard";
 
 const flowerDataTwo = Data.flowerlist.slice(4, 8);
 console.log(flowerDataTwo); // for testing purposes only
