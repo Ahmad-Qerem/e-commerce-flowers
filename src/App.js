@@ -5,7 +5,12 @@ import * as all from "./components/AllComponents";
 function App() {
   return (
     <>
-      <all.HomePage />
+      <div className="Container">
+        <all.LogoAndIcons />
+        <all.NavBar />
+        <all.HomePage />
+      </div>
+      <all.Footer />
     </>
   );
 }

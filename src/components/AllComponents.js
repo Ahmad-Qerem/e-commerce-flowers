@@ -1,11 +1,8 @@
+import HomePage from "./HomePage";
+import CheckOut from "./CheckOut";
+import QuickView from "./QuickView";
+import LogoAndIcons from "./Shared/LogoAndIcons/LogoAndIcons";
+import NavBar from "./Shared/NavBar/NavBar";
+import Footer from "./Shared/Footer/Footer";
 
-import HomePage from './HomePage';
-import CheckOut from './CheckOut';
-import QuickView from './QuickView';
-
-
-export {
-    HomePage,
-    CheckOut,
-    QuickView
-};
+export { HomePage, CheckOut, QuickView, LogoAndIcons, NavBar, Footer };

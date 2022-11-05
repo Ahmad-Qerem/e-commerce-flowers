@@ -2,7 +2,7 @@ import React from "react";
 import HeadingTitle from "../../HeadingTitle/HeadingTitle";
 import "./NewSection.css";
 import Data from "../../../../Data.json";
-import ReusableCard from "../ReusableCard/ReusableCard";
+import ReusableCard from "../../../Shared/ReusableCard/ReusableCard";
 
 // What I did here is simply limiting the array to only four elements using slice function instead of many.
 // we can Apply pagination later .. simple idea
