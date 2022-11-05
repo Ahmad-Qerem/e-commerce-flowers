@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import React from "react";
-import { Radio, RadioGroup } from "react-radio-group";
+// import { Radio, RadioGroup } from "react-radio-group";
 const ShippingForm = ({}) => {
   const DeliveryMethod = [
     {
@@ -18,24 +18,6 @@ const ShippingForm = ({}) => {
   return (
     <form>
       <span>Delivery method</span>
-      <RadioGroup
-          name="fruit">
-
-            <div>
-              <div>
-                <label>
-                  <Radio value="apple" />Apple
-                </label>
-              </div>
-              
-
-              <label>
-                <Radio value="orange" />Orange
-              </label>
-
-            </div>
-         
-        </RadioGroup>
     </form>
   );
 };
