@@ -1,0 +1,30 @@
+.PriceContainer {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.CurrentPrice {
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Inter-Regular_SemiBold";
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 28px;
+}
+
+.OldPrice {
+  opacity: 1;
+  color: rgba(130, 130, 139, 1);
+  font-family: "Inter-Regular_Medium";
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 22px;
+  text-decoration: line-through;
+  margin-left: 20px;
+}
