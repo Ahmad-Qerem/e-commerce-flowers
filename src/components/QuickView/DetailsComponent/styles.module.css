@@ -23,12 +23,12 @@ details[open] summary {
 .DetailsComponent {
   margin-top: 20px;
   opacity: 1;
-  width: 521px;
+  width: 95%;
   height: 58px;
 }
 
-summary{
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
+summary {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }

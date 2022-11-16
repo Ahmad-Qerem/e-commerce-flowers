@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-
+import {
+  TransformComponent,
+  TransformWrapper,
+} from "@pronestor/react-zoom-pan-pinch";
 const ImageContainer = ({ photo }) => {
   return (
     <div className={styles.ImageContainer}>
@@ -11,9 +13,9 @@ const ImageContainer = ({ photo }) => {
         initialPositionY={10}
       >
         {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
-          <React.Fragment >
+          <React.Fragment>
             <TransformComponent>
-              <img className={styles.Photo} src={photo} />
+              <img className={styles.Photo} src={photo} alt="flower" />
             </TransformComponent>
 
             <div className={styles.ZoomButtons}>
