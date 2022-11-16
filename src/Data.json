@@ -3,6 +3,7 @@
     {
       "category": "Shrubs",
       "price": 15.99,
+      "oldPrice": 25,
       "instructions": "Large double. Good grower, heavy bloomer. Early to mid-season, acid loving plants. Plant in moist well drained soil with pH of 4.0-5.5.",
       "photo": "./images/new1.jpg",
       "name": "Azalea",
@@ -11,22 +12,27 @@
     {
       "category": "Shrubs",
       "price": 33.99,
+      "oldPrice": 44,
       "instructions": "Beautiful large royal purple flowers adorn attractive satiny green leaves that turn orange\\/red in cold weather. Grows to up to 18 feet, or prune annually to shorten.",
       "photo": "./images/new2.jpg",
       "name": "Tibouchina Semidecandra",
       "productId": 2
+     
     },
     {
       "category": "Shrubs",
       "price": 12.99,
+      "oldPrice": 65,
       "instructions": "Blooms in summer, 20-35 inches high. Fertilize regularly for best results. Full sun, drought tolerant.",
       "photo": "./images/new3.jpg",
       "name": "Hibiscus",
-      "productId": 3
+      "productId": 3,
+      "colorArr": "['violet','strawberry','red','light green']"
     },
     {
       "category": "Shrubs",
       "price": 5.99,
+      "oldPrice": 12.66,
       "instructions": "Quick-growing, herbaceous, shrub reaching up to 30 inches in height, forming a rounded, dense bush.",
       "photo": "./images/new4.jpg",
       "name": "Plectranthus",
@@ -35,42 +41,52 @@
     {
       "category": "Shrubs",
       "price": 15.99,
+      "oldPrice": 20.58,
       "instructions": "Slow growing, upright to spreading shrub. Oval, glossy, leaves and profuse winter to spring blooming flowers.",
       "photo": "./images/relevent1.jpg",
       "name": "Camellia Japonica",
-      "productId": 5
+      "productId": 5,
+      "colorArr": "['green','banana','red','lemon']"
     },
     {
       "category": "Shrubs",
       "price": 10.99,
+      "oldPrice": 17.99,
       "instructions": "Thorny woody vine scrambles over other plants with their hooked thorns. Pest free.",
       "photo": "./images/relevent2.jpg",
       "name": "Bougainvillea Spectabilis",
-      "productId": 6
+      "productId": 6,
+      "colorArr": "['cream','blue','ivory','purple']"
     },
     {
       "category": "Shrubs",
       "price": 22.99,
+      "oldPrice": 33.58,
       "instructions": "Deep purple colored flowers bushy rounded growth habit to 3 feet tall. Plant in full sun. Water regularly.",
       "photo": "./images/relevent3.jpg",
       "name": "Rosa Burgundy",
-      "productId": 7
+      "productId": 7,
+      "colorArr": "['green','blue','red','purple']"
     },
     {
       "category": "Shrubs",
       "price": 22.99,
+      "oldPrice": 37.35,
       "instructions": "Deep purple colored flowers bushy rounded growth habit to 3 feet tall. Plant in full sun. Water regularly.",
       "photo": "./images/relevent4.jpg",
       "name": "Rosa Iceberg",
-      "productId": 8
+      "productId": 8,
+      "colorArr": "['green','white','red','purple']"
     },
     {
       "category": "Container Plants",
       "price": 45.99,
+      "oldPrice": 50,
       "instructions": "They do not thrive indoors, where the light is too dim, and humidity too low, for them to grow properly.",
       "photo": "bonsai.jpg",
       "name": "Bonsai Tree",
-      "productId": 9
+      "productId": 9,
+      "colorArr": "['narg','blue','black','grey']"
     },
     {
       "category": "Container Plants",

@@ -1,0 +1,60 @@
+.CounterItems {
+  display: flex;
+  flex-direction: raw;
+  justify-content: space-between;
+  height: 27px;
+  width: 116px;
+  border: 1px solid rgba(222, 222, 222, 1);
+  opacity: 1;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.IncCounter,
+.DecCounter {
+  width: 35px;
+  height: 35px;
+  background: #f0f0f5;
+  background-blend-mode: normal;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.QuantityValue {
+  font-family: "Inter-Regular_Medium";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.Icon {
+  width: 22px;
+  height: 22px;
+  color: #6e70ff;
+  stroke-width: 30px;
+}
+
+.Count {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.Count .Title {
+  text-align: start;
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Inter-Regular_Medium";
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 22px;
+  margin-bottom: 22px;
+}
