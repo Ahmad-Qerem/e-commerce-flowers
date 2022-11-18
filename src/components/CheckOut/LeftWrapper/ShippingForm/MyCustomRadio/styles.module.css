@@ -1,0 +1,23 @@
+.Radio{
+    display: flex;
+    align-items: center;
+    border: 1px gray solid;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(230,230,235, 1);
+    padding: 15px;
+
+}
+
+.RightWrapper{
+    
+}
+
+.TopRightWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.Class1{
+    position: absolute;
+    width: 100%;
+}

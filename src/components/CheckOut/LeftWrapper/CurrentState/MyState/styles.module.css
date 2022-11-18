@@ -1,0 +1,54 @@
+.MainWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Circle{
+
+    color: rgba(255,255,255,1);
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #6E70FF;
+    border-radius: 50%;
+
+    background-color: #6E70FF;
+}
+
+.MySpan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+span hr {
+    height: 3px;
+    border-radius: 10px ;
+    background-color: #6E70FF;
+    border: none;
+    width: 80%;
+    margin-right: 20px;
+}
+
+.ProgressTitle{
+    margin: 0 20px 0 12px;
+    color: rgba(110,112,255,1);
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 24px;
+}

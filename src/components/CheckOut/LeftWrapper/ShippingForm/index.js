@@ -1,6 +1,13 @@
-import styles from "./styles.module.css";
-import React from "react";
-// import { Radio, RadioGroup } from "react-radio-group";
+
+import styles from './styles.module.css'
+import * as React from "react";
+import RadioGroup from "@mui/material/RadioGroup";
+import FormControl from "@mui/material/FormControl";
+import FormLabel from "@mui/material/FormLabel";
+import { useRadioGroup } from '@mui/material/RadioGroup';
+import MyCustomRadio from "./MyCustomRadio";
+import AddressGetter from './AddressGetter';
+import DateAndTimeGetter from './DateAndTimeGetter'
 const ShippingForm = ({}) => {
   const DeliveryMethod = [
     {
@@ -16,9 +23,27 @@ const ShippingForm = ({}) => {
   ];
 
   return (
-    <form>
-      <span>Delivery method</span>
-    </form>
+    <div className={styles.MainWrapper}>
+      <FormControl>
+        <FormLabel className={styles.DeliveryTitle} id="Delivery">Delivery method</FormLabel>
+        <RadioGroup
+          aria-labelledby="Delivery"
+          defaultValue="femsale"
+          name="radio-buttons-group"
+        >
+          {DeliveryMethod.map((item,i)=>{
+            return (
+              <MyCustomRadio item={item} i={i} />
+            );
+          })}
+
+        </RadioGroup>
+      </FormControl>
+      <span className={styles.Title}>Delivery address</span>
+      <AddressGetter/>
+      <span className={styles.Title}>Date & time</span>
+      <DateAndTimeGetter/>
+    </div>
   );
 };
 export default ShippingForm;

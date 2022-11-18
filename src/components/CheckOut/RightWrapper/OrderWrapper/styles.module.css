@@ -1,0 +1,30 @@
+
+.MainWrapper{
+    width: 440px;
+    border: 1px solid rgba(230,230,235, 1);
+    padding:25px ;
+}
+.Title{
+    padding: 15px;
+    border-top:1px solid #F0F0F0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.Title2{
+    display: flex;
+    justify-content: space-between;
+}
+.Edit{
+    cursor: pointer;
+}
+.Edit:hover{
+    text-decoration: underline;
+}
+.ScrolledDiv{
+    max-height: 550px;
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+

@@ -1,0 +1,15 @@
+.MainWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.Title{
+    color: rgba(0,0,0,1);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 24px;
+    margin: 15px 0;
+}

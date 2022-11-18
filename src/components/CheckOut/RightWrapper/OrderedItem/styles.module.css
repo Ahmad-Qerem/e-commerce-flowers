@@ -1,0 +1,45 @@
+.MainWrapper{
+    display: flex;
+    margin-top: 43px ;
+}
+.RightWrapper{
+    width: 100%;
+}
+.Title{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Counter{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    display: flex;
+}
+.Mark{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width:25px ;
+    height: 25px;
+    background-color: rgba(240,240,245, 1);
+    color: #6E70FF;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.Mark:hover{
+    color: white;
+    background-color:#6E70FF ;
+}
+.MyImage{
+    width: 100px;
+    height: 100px;
+    margin-right: 22px;
+}
+.CounterText{
+    text-align: center;
+    width: 55px;
+}
